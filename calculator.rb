@@ -19,9 +19,9 @@ class Calculator
       @result -= number
     end
   
-    # TODO: Implement multiplication
+    # Multiplies a number from the result
     def multiply(number)
-      # Multiply @result by the given number
+      @result *= number
     end
   
     # TODO: Implement division
