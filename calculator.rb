@@ -19,7 +19,10 @@ class Calculator
       @result -= number
     end
   
-    # Multiplies a number from the result
+    # Multiplies the current value of @result by the given number.
+    #
+    # @param [Numeric] number The number to multiply @result by.
+    # @return [Numeric] The updated value of @result after multiplication.
     def multiply(number)
       @result *= number
     end
