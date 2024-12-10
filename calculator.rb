@@ -19,9 +19,12 @@ class Calculator
       @result -= number
     end
   
-    # TODO: Implement multiplication
+    # Multiplies the current value of @result by the given number.
+    #
+    # @param [Numeric] number The number to multiply @result by.
+    # @return [Numeric] The updated value of @result after multiplication.
     def multiply(number)
-      # Multiply @result by the given number
+      @result *= number
     end
   
     # TODO: Implement division
